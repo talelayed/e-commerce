@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-repeat: no-repeat;
 }
 
 .App-link {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.active{
+  background: white;
+  box-shadow: rgb(0 0 0 / 2%) 0px 1px 1px 0px, rgb(0 0 0 / 3%) 0px 2px 2px 0px, rgb(0 0 0 / 2%) 0px 4px 4px 0px, rgb(0 0 0 / 2%) 0px 8px 8px 0px, rgb(0 0 0 / 2%) 0px 16px 16px 0px;
+  -webkit-transition: background .7s ease-in-out;
+  -moz-transition: background .7s ease-in-out;
+  -o-transition: background .7s ease-in-out;
+  transition: background .7s ease-in-out;
+  margin-top: -30px;
+  transition: all .7s;
 }
